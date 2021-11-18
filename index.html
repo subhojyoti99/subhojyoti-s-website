@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Subhojyoti's Personal Site</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="icon" href="images/favicon.ico">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet">
+        
+    </head>
+
+    <body onload="realtimeClock()">
+        
+            <div class="wall_clock">
+<!---------  create clock  -------->  
+                <h1>Wall Time</h1>
+                <div id="clock"></div>
+                
+                <div class="card">
+    <div class="search">
+      <input opacity: 0.2 type="text" class="search-bar" placeholder="Search">
+      <button><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" height="1.5em"
+          width="1.5em" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M909.6 854.5L649.9 594.8C690.2 542.7 712 479 712 412c0-80.2-31.3-155.4-87.9-212.1-56.6-56.7-132-87.9-212.1-87.9s-155.5 31.3-212.1 87.9C143.2 256.5 112 331.8 112 412c0 80.1 31.3 155.5 87.9 212.1C256.5 680.8 331.8 712 412 712c67 0 130.6-21.8 182.7-62l259.7 259.6a8.2 8.2 0 0 0 11.6 0l43.6-43.5a8.2 8.2 0 0 0 0-11.6zM570.4 570.4C528 612.7 471.8 636 412 636s-116-23.3-158.4-65.6C211.3 528 188 471.8 188 412s23.3-116.1 65.6-158.4C296 211.3 352.2 188 412 188s116.1 23.2 158.4 65.6S636 352.2 636 412s-23.3 116.1-65.6 158.4z">
+          </path>
+        </svg></button>
+    </div>
+    <div class="weather loading">
+      <h2 class="city">Weather in Kolkata</h2>
+      <h1 class="temp">30°C</h1>
+      <div class="flex">
+        <img src="https://openweathermap.org/img/wn/04n.png" alt="" class="icon" />
+        <div class="description">Cloudy</div>
+      </div>
+      <div class="humidity">Humidity: 60%</div>
+      <div class="wind">Wind speed: 6.2 km/h</div>
+    </div>
+  </div>
+            
+        </div>
+        
+        
+        <div class="pic_name">
+            <img src="images/me.jpg" alt="Subhojyoti's profile picture">
+            <h1>Subhojyoti Singha</h1>
+            <p><em>Founder of Chatting website <strong><a href="https://subhojyoti99.github.io/live-chat/" target="_blank">The Live-Chat</a></strong></em></p>
+            <p><em>Studing in <strong>B.Tech in Computer Science and Engineering</strong> at <strong><a href="https://snuniv.ac.in/" target="_blank">Sister Nivedita University</a></strong>, Kolkata</em></p>
+            <p>I am a Web Developer. I &#9829 tea and brew my own beers.</p>
+        </div>
+        
+        <hr>
+        <hr>
+        
+        <div class="project">
+            <h2>My Projects</h2><br>
+            <ul>
+                <li>How to Login Website</li><br>
+                <li>Live Real-Time Chatting Web Application</li><br>
+                <li>Calculator and Number Details</li>
+            </ul>
+        </div>
+        
+        <hr>
+        
+        <hr>
+        
+        <div class="Work_Experience">
+        <h2>Work Experience</h2>
+            <table cellspacing="45" align="center">
+                <tr>
+                    <th>Duration</th>
+                    <th>Work</th>
+                    <th>Description</th>
+                    <th>Place</th>
+                </tr>
+                <tr>
+                    <td>9th April, 2021 - 27th October, 2021</td>
+                    <td>Lead IT Intern at <a href="http://www.24x7consultancyservices.com/">24x7 Consultancy Services</a></td>
+                    <td>I used to take care of web developing system. Developed a analytical website and a e-commercial website called "My Kolkata Bazar".</td>
+                    <td>Kolkata</td>
+                </tr>
+            </table>
+        </div>
+        
+        <hr>
+        <hr>
+        <div class="skills">
+        <h2>Skills</h2>
+            <div id="piechart"></div>
+            
+            <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+        </div>
+        
+
+        <hr>
+        <hr>
+        
+
+        <div class="hobby">
+            <h2>My Hobbies</h2>
+            <ul>
+                <li><a href="https://www.instagram.com/p/COzzRx3FPoWswATsvqP1QkgLXeAoyomyIu6me00/" target="_blank">Playing Guitar</a></li>
+                <li><a href="https://www.instagram.com/p/B_YaJNhgPG9KsC5bg7RBd8L-UPFnSgpS0Z-xuc0/" target="_blank">Drawing</a></li>
+                <li>Coding</li>
+                <li>Playing Internet Games</li>
+                <li>Motorcycles</li>
+                <li><a href="https://www.instagram.com/p/COYxybDlRNtgJipQRv3dwfm7CGjbAHSZlsyOlk0/" target="_blank">Travels</a></li>
+            </ul>
+            
+        </div>
+        
+        
+        <hr>
+        <hr>
+        
+        
+        <div class="contact_me">
+            <h2>My Contact Details</h2>
+            <p>52,Karaya Road, Block - A, Flat - 8D, Kolkata - 700019</p>
+            <p>+919830305582</p>
+            <p>subhajyotisingha@gmail.com</p>
+
+            <form opacity: 0.5 action="mailto:subhajyotisingha@gmail.com" method="post" enctype="text/plain">
+                <label>Your Name : </label>
+                <input type="text" name="yourName" value=""><br>
+                <label>Your Email : </label>
+                <input type="email" name="yourEmail" value=""><br>
+                <label>Your Message : </label><br>
+                <textarea name="yourMessage" rows="10" cols="30"></textarea><br>
+                <input type="submit" name="">
+            </form>
+        </div>
+        
+        
+         <script src="JavaScript/index.js"></script>
+         <script src="JavaScript/weather_script.js"></script>
+        
+    </body>
+
+</html>
